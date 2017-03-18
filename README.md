@@ -45,6 +45,13 @@ end
 
 10. add `gem 'active_model_serializers', '~> 0.10.0'` 
 11. run `rails g scaffold post title desc:string` (also creates serializer)
+12. remove or update. Auth0 client secret by default is non-base64 encoded
+```
+# config/initializers/knock.rb
+
+# config.token_secret_signature_key = -> { JWT.base64url_decode Rails.application.secrets.auth0_client_secret }
+  config.token_secret_signature_key = -> { Rails.application.secrets.auth0_client_secret }
+```
 
 
 ------------------
