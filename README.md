@@ -43,6 +43,10 @@ class User < ApplicationRecord
 end
 ```
 
+10. add `gem 'active_model_serializers', '~> 0.10.0'`
+
+------------------
+
 
 
 
@@ -50,4 +54,4 @@ References
 ----------
 1. [https://www.pluralsight.com/guides/ruby-ruby-on-rails/token-based-authentication-with-ruby-on-rails-5-api](https://www.pluralsight.com/guides/ruby-ruby-on-rails/token-based-authentication-with-ruby-on-rails-5-api)
 2. [http://www.thegreatcodeadventure.com/jwt-authentication-with-rails-ember-part-i-rails-knock/])http://www.thegreatcodeadventure.com/jwt-authentication-with-rails-ember-part-i-rails-knock/)
-
+3. [http://www.thegreatcodeadventure.com/building-a-super-simple-rails-api-json-api-edition-2/](http://www.thegreatcodeadventure.com/building-a-super-simple-rails-api-json-api-edition-2/)
