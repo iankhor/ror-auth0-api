@@ -43,7 +43,9 @@ class User < ApplicationRecord
 end
 ```
 
-10. add `gem 'active_model_serializers', '~> 0.10.0'`
+10. add `gem 'active_model_serializers', '~> 0.10.0'` 
+11. run `rails g scaffold post title desc:string` (also creates serializer)
+
 
 ------------------
 
