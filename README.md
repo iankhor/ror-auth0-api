@@ -49,6 +49,9 @@ end
 
 ------------------
 
+to update / to be added
+--------
+1. responses when not authorized
 
 
 
