@@ -2,6 +2,10 @@
 DRAFT
 ======
 
+Simple API Lifecycle Diagram
+-----
+[Simple API Lifecycle Diagram](https://github.com/iankhor/files/blob/master/ror-auth0-api/1.%20Simple%20API%20Lifecycle.png)
+
 Steps
 -----
 0. `cp .env.example .env`  
