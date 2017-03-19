@@ -6,6 +6,7 @@ Steps
 -----
 0. `cp .env.example .env`
 0.1. env variables
+0.2. turn on postgres server - [postgresapp](www.postgresapp.com)
 1. `rails new ror-auth0-api --api --database=postgresql`  
 2. `rails db:create && rails db:migrate`
 3. add `gem 'bcrypt', '~> 3.1.7'`
@@ -52,6 +53,14 @@ end
 # config.token_secret_signature_key = -> { JWT.base64url_decode Rails.application.secrets.auth0_client_secret }
   config.token_secret_signature_key = -> { Rails.application.secrets.auth0_client_secret }
 ```
+
+13. add unauth access message
+```
+    def unauthorized_entity(entity_name)
+        render json: ["Unauthorized"], status: :unauthorized
+    end
+```  
+14.
 
 
 ------------------
