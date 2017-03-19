@@ -4,10 +4,10 @@ DRAFT
 
 Steps
 -----
-0. `cp .env.example .env`
-0.1. env variables
-0.2. turn on postgres server - [postgresapp](www.postgresapp.com)
-0.3. populate env variables with auth0 items
+0. `cp .env.example .env`  
+0.1. env variables  
+0.2. turn on postgres server - [postgresapp](www.postgresapp.com)  
+0.3. populate env variables with auth0 items  
 1. `rails new ror-auth0-api --api --database=postgresql`  
 2. `rails db:create && rails db:migrate`
 3. add `gem 'bcrypt', '~> 3.1.7'`
