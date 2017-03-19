@@ -61,7 +61,7 @@ end
         render json: ["Unauthorized"], status: :unauthorized
     end
 ```  
-14.
+14. heroku setup , add env in heroku etc
 
 
 ------------------
