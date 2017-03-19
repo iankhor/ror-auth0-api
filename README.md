@@ -57,9 +57,11 @@ end
 
 13. add unauth access message
 ```
-    def unauthorized_entity(entity_name)
-        render json: ["Unauthorized"], status: :unauthorized
-    end
+# app/controllers/application_controller.rb
+
+def unauthorized_entity(entity_name)
+    render json: ["Unauthorized"], status: :unauthorized
+end
 ```  
 14. heroku setup , add env in heroku etc
 
