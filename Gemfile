@@ -20,7 +20,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Faker data
-gem 'faker', groups: [:development, :test]
+gem 'faker'
 
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
