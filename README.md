@@ -7,5 +7,5 @@ Live site : [http://react-auth0-api.herokuapp.com/](http://react-auth0-api.herok
 
 This repository is a Rails API server for my step by step publication at [https://goo.gl/ffaWwr](https://goo.gl/ffaWwr)
 
-A companion React front-end framework that interacts this API server can be found at 
+A companion React front-end framework that interacts with this API server can be found at 
 [https://github.com/iankhor/react-auth0-api](https://github.com/iankhor/react-auth0-api)
